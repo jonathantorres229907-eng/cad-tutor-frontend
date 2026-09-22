@@ -1,19 +1,26 @@
-# React + Vite
+# CAD Tutor Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite frontend for the CAD Tutor platform. This interface allows users to submit part descriptions, upload CAD files, and view AI-generated models and tutorials.
 
-Currently, two official plugins are available:
+## Features
+- React component-based UI
+- Vite development environment
+- Form submission for CAD descriptions and file uploads
+- Dynamic rendering of AI-generated models and tutorial steps
+- Integrated backend communication for model generation
+- Clean, modern UI layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Model Generation Workflow
+1. User enters a part description and optional file upload.
+2. The frontend sends the data to the backend.
+3. The backend returns a generated model and tutorial.
+4. The frontend displays the model preview and step-by-step guide.
 
-## React Compiler
+## Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Purpose
+This frontend provides a user-friendly interface for interacting with the CAD Tutor backend and visualizing generated models and tutorials.
