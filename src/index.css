@@ -1,0 +1,19 @@
+:root {
+  --bg: #0d1117;
+  --card: #161b22;
+  --muted: #c9d1d9;
+  --panel: #21262d;
+  --border: #30363d;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: var(--muted);
+}
+
+button {
+  cursor: pointer;
+}
